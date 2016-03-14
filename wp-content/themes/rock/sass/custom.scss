@@ -1,0 +1,79 @@
+/*Universal*/
+
+
+.area-white {
+	width: 100%;
+	background-color: $white;
+	padding: 4rem 0;
+}
+
+.area-warm-1 {
+	width: 100%;
+	background-color: $warm-1;
+	padding: 4rem 0;
+}
+
+.container-header-color-4 {
+	background-color: $color-4;
+	color: $white;
+	margin: 0 0 2rem 0;
+	padding: .5rem;
+}
+
+/*Home Page*/
+.home-hero {
+	background-size: cover;
+	background-repeat: none;
+	background-color: #fff;
+	background-position: center;
+	min-height: 450px;
+	.container-color-2-trans {
+	}
+}
+
+.container-color-2-trans {
+	background-color: rgba(13,84,144,.7);
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	margin: 0;
+	padding: 1rem 2rem;	
+}
+
+.home-thumbnail {
+	margin-bottom: 30px;
+	background-size: cover;
+	background-repeat: none;
+	background-color: #fff;
+	background-position: center;
+	height: 220px;
+}
+.thumbnail-container {
+	background-color: rgba(0,0,0,.7);
+	color: $white;
+	width: 100%;
+	padding: 1rem;
+}
+
+.browse-list {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.browse-bg-image {
+	padding: 1rem;
+	background-size: cover;
+	background-repeat: none;
+	background-color: #fff;
+	background-position: center;
+	height: 220px;
+	color: $white;
+}
+
+
+
+
+
+

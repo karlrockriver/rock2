@@ -1,0 +1,49 @@
+/*==========  HERO STYLES   ==========*/
+.vid {
+    position: relative; 
+    min-height: 50vh;
+    margin-bottom: 48px; 
+}
+
+.vid-content {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    background: url(../assets/Strum-Away.jpg) no-repeat 50% 50%;
+    background-size: cover;    
+}
+
+.vid-video {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    overflow: hidden;
+}
+
+/*==========  HERO TEXT CONTENT STYLES   ==========*/
+.vid-text {
+    position: absolute; /*position: relative; is the standard, but chrome gets confused?*/
+    top: 50%;
+    left: 50%; /*chrome fix, even old IE 11 works without this fix*/
+    transform: translateY(-50%) translateX(-50%); /*add translateX(-50%); as a fix for chrome*/
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}

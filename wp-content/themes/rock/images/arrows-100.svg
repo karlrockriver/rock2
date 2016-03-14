@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="97px" height="94px" viewBox="0 0 97 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>arrows</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrows" sketch:type="MSLayerGroup" transform="translate(-1.000000, 0.000000)" fill="#001F5B">
+            <g id="Group" sketch:type="MSShapeGroup">
+                <path d="M97.6709276,47.1544645 L51.0002235,0.483760267 L40.5007339,10.9832499 L76.6692459,47.1544645 L40.5007339,83.3229765 L51.0002235,93.8224661 L97.6709276,47.1544645 Z" id="Shape"></path>
+                <path d="M58.6701209,47.1544645 L11.9994167,0.483760267 L1.49992708,10.9832499 L37.6684391,47.1544645 L1.49992708,83.3229765 L11.9994167,93.8224661 L58.6701209,47.1544645 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

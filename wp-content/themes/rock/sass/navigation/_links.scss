@@ -1,0 +1,21 @@
+a {
+	color: $color-1;
+	font-family: 'Roboto Condensed', sans-serif;
+
+	&:visited {
+		color: $gray-6;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		transition: all .2s ease-in;
+		color: $color-3;
+	}
+	&:focus {
+		
+	}
+	&:hover,
+	&:active {
+		
+	}
+}
