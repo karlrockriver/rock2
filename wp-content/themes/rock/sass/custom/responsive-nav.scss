@@ -1,0 +1,108 @@
+/*! responsive-nav.js 1.0.39 by @viljamis */
+
+.nav-collapse ul {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+.nav-collapse li {
+  width: 100%;
+  display: inline-block;
+  padding: .5rem 0;
+  @media screen and (min-width: 40em) {
+    display: inline;
+    margin-right: 1rem;
+    padding: 0;
+  }
+  a {
+    color: $color-2;
+    font-family: 'Quantico', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: .5rem;
+  }
+  a:hover {
+    transition: all .2s ease-in;
+    color: $color-3;
+  }
+}
+@media screen and (max-width: 40em) {
+  .nav-collapse li:hover {
+    transition: all .2s ease-in;
+    background-color: $color-1;
+  }
+}
+
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+
+/*Existing WP customizations*/
+@media screen and (min-width: 40em) {
+.site-header {
+  height: 60px;
+  z-index: 999;
+}
+
+.header-logo {
+  display: block;
+  z-index: 999;
+  margin-right: 2rem;
+}
+}
+
+.icon-container {
+  display: none;
+  @media screen and (min-width: 40em) {
+  display: inline;
+  float: right;
+  margin-bottom: 1rem;
+}
+  img {
+    display: inline;
+    flex: left;
+    height: 1.5rem;
+    margin-right: 1rem;
+  }
+}
+
+

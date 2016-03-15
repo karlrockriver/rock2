@@ -20,7 +20,6 @@
 <!-- Google Fonts -->
 <link href='https://fonts.googleapis.com/css?family=Roboto:300, 700|Roboto+Condensed:400,300|Quantico:700' rel='stylesheet' type='text/css'>
 
-
 <?php wp_head(); ?>
 </head>
 
@@ -29,24 +28,22 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'rock' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-3">
-					<img src="images/dimoc-logo.png">
-				</div>
-				<div class="col-xs-7">
-					<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rock' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-				</div>
-				<div class="col-xs-2">
+			<div class="row middle-xs">
+				<img class="header-logo" src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/dimoc-logo.png">
+				<nav class="nav-collapse" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+				</nav><!-- nav-collapse -->
 
-		
+				<div class="icon-container">
+					<a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100.svg"></a>
+					<a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100.svg"></a>
+					<a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/user-100.svg"></a>
 				</div>
 			</div>
 		</div>
-	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	</header><!-- #masthead -->
+</div>
+
+<div id="content" class="site-content">

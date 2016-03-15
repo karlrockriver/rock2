@@ -33,7 +33,6 @@ get_header(); ?>
 									<input name="videos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin: 0 .5rem">Videos</p>
 								</label>
 							</div>
-					
 					<button class="button-search-submit">icon</button>
 					</div>
 				</div>
